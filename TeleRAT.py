@@ -207,5 +207,4 @@ def send_text(message):
     except:
         pass
 
-bot.infinity_polling(True)
 bot.polling(none_stop=True)
